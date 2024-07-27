@@ -3,13 +3,19 @@
 public class Main {
     public static void main(String[] args) {
         FrintNumber frintNumber = new FrintNumber();
-        frintNumber.inDayso();
+        int resultFrint = frintNumber.frintNumber();
+        System.out.println(resultFrint+ "");
 
         Total total = new Total();
-        total.tong();
+        int resultSum = total.sum();
+        System.out.println("tong cac chu so la = " + resultSum);
 
-        TotalSole totalSole = new TotalSole();
-        totalSole.tongSole();
+        TotalOddnumber totalOddnumber = new TotalOddnumber();
+        int resultOnumber = totalOddnumber.sumOddnumber();
+        System.out.println("tổng các số lẻ là: " + resultOnumber);
+
+//        Division division = new Division();
+//        division.division();
 
     }
 

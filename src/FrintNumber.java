@@ -1,7 +1,10 @@
 public class FrintNumber {
-    public void inDayso () {
+    public int frintNumber() {
+//        int frint = 0;
         for (int a = 1; a < 100; a++) {
-            System.out.println(a+ "");
+//            frint = a;
         }
+
+        return 0;
     }
 }
