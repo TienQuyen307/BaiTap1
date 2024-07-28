@@ -1,10 +1,9 @@
 public class Total {
-    public int sum (){
-        int total = 0;
-        for (int a = 1; a < 100; a++) {
-            total += a;
+    public static int sumAllNumbers(int[] seriesOfNumber) {
+        int sum = 0;
+        for (int number : seriesOfNumber) {
+            sum += number;
         }
-        return total;
-
+        return sum;
     }
 }

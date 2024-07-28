@@ -1,7 +1,5 @@
-//public class Division {
-//    public void division(){
-//        double result = (double) total / 7;
-//        String formattedResult = String.format("%.2f", result);
-//        System.out.println("chia 7 = " + formattedResult);
-//    }
-//}
+public class Division {
+    public static double divisionOfSeven(int sum) {
+        return sum / 7.0;
+    }
+}
